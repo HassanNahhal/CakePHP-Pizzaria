@@ -1,0 +1,40 @@
+2015-11-06 01:46:00 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'cake_blog.articals' n'existe pas
+Stack Trace:
+#0 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'articals', Array, Object(Cake\Database\Schema\Table))
+#1 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('articals', Array)
+#2 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('articals')
+#3 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Articals')
+#7 [internal function]: Bake\Shell\Task\ModelTask->main('Articals')
+#8 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\Shell.php(447): call_user_func_array(Array, Array)
+#9 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\Shell.php(442): Cake\Console\Shell->runCommand(Array, false)
+#10 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\wamp\www\cakephp\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2015-11-13 20:16:26 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'cake_blog.articales' n'existe pas
+Stack Trace:
+#0 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'articales', Array, Object(Cake\Database\Schema\Table))
+#1 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('articales', Array)
+#2 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('articales')
+#3 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Articales')
+#7 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Articales')
+#8 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('articales', 0)
+#9 C:\wamp\www\cakephp\vendor\cakephp\bake\src\Shell\BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('articales')
+#11 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\Shell.php(436): call_user_func_array(Array, Array)
+#12 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\cakephp\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\cakephp\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
